@@ -24,7 +24,7 @@ div.container{
 
 }
 header{
-  min-width: 980px;
+  min-width: 1000px;
   background: $header-bg;
   height: 230px;
   div.container{
@@ -55,7 +55,7 @@ header{
 
 
 nav{
-  min-width: 980px;
+  min-width: 1000px;
   background: $nav-bg;
   height: 80px;
   div.container{
@@ -115,6 +115,7 @@ section.content{
   margin: -20px 0 0;
   padding-bottom: 195px;
   div.container{
+    max-width: 1000px;
     height: 785px;
     position: relative;
     div.news{
@@ -149,17 +150,20 @@ section.content{
     }
   }
     div.cv{
+      position: absolute;
+      right: 0;
+      margin-top: 20px;
+      color:$cv-color;
+      max-width: 569px;
+      height: 493px;
       overflow-wrap: break-word;
       word-wrap: break-word;
       -webkit-hyphens: auto;
       -ms-hyphens: auto;
       hyphens: auto;
-      position: absolute;
-      right: 0;
-      margin-top: 20px;
-      color:$cv-color;
-      width: 569px;
-      height: 493px;
+      div.about{
+
+      }
       h1{
         padding-bottom: 30px;
         font-size: 40px;
@@ -168,9 +172,9 @@ section.content{
       p{
         padding-bottom: 20px;
         letter-spacing: 0.38px;
-
-
+        width: 100%;
       }
+
     }
 }
 
@@ -183,7 +187,7 @@ footer{
   right: 0;
   margin: auto;
   padding: 50px 0 5px;
-  min-width: 980px;
+  min-width: 1000px;
   min-height: 165px;
   background: $footer-bg;
   div.container{
