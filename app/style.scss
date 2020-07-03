@@ -105,13 +105,14 @@ section.slider{
     display: flex;
     justify-content: center;
     img{
-
+      width: 1248px;
+      height: 462px;
     }
   }
 }
 
 section.content{
-  margin: 30px 0 0;
+  margin: -20px 0 0;
   padding-bottom: 195px;
   div.container{
     height: 785px;
@@ -141,6 +142,8 @@ section.content{
         justify-content: flex-end;
         a{
           color: $news-color;
+          text-decoration: none;
+          border-bottom: 1px solid $footer-color;
         }
       }
     }
@@ -190,6 +193,7 @@ footer{
     color:$footer-color;
     a{
       color:$footer-color;
+
     }
     div.copy{
       width: 200px;
@@ -202,6 +206,10 @@ footer{
         li{
           list-style: none;
 
+          a{
+            text-decoration: none;
+            border-bottom: 1px solid $footer-color;
+          }
         }
       }
     }

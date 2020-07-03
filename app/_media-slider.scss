@@ -1,11 +1,13 @@
 @media screen and (max-width: 1248px){
   section.slider{
-    div.img{
-      img{
-
-        display: none;
+      div.img{
+          img{
+              display: none;
       }
     }
   }
-
+  section.content{
+     margin: 20px 0 0!important;
+  }
 }
+
